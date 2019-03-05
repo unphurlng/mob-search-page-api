@@ -1,6 +1,3 @@
-* {
-}
-
 html {
  background: url('https://previews.123rf.com/images/maximusnd/maximusnd1609/maximusnd160900837/63121378-beautiful-space-background-with-stardust-and-stars-deep-far-space-cosmic-glowing-colors-milky-way-co.jpg') no-repeat center center fixed;
  -webkit-background-size: cover;
@@ -50,5 +47,4 @@ form {
 }
 
 #input-label, #page-numbers {
-    background: rgba(255, 255, 255, 0.694);
-}
+color: white;}
