@@ -1,3 +1,5 @@
+import { makeGalleryTemplate } from '../src/makeGalleryTemplate.js';
+
 const test = QUnit.test;
 
 QUnit.module('TEMPLATE GALLERY TEST');
@@ -7,17 +9,6 @@ const movie = {
     release_date: 1977,
     poster_path: '/btTdmkgIvOi0FFip1sPuZI2oQG6.jpg'
 };
-
-
-function makeGalleryTemplate(movie) {
-    return `
-        <li>
-            <p class="title">${movie.title}</p>
-            <img src="https://image.tmdb.org/t/p/w1280${movie.poster_path}">
-            <p class="release">${movie.release_date}</p>
-        </li>
-    `;
-}
 
 test('populate each movie to gallery', assert => {
     // arrange
@@ -32,7 +23,7 @@ test('populate each movie to gallery', assert => {
     const result = makeGalleryTemplate(movie);
 
     // assert
-    assert.equal(result, expected);
+    assert.htmlEqual(result, expected);
 });
 
 
