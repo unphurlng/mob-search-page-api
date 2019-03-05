@@ -11,3 +11,12 @@ export function makeGalleryTemplate(movie) {
     const dom = template.content;
     return dom;
 }
+
+const movieContainer = document.getElementById('movie-container');
+
+export default function loadGallery(movieList) {
+    movieList.forEach(movie => {
+        const dom = makeGalleryTemplate(movie);
+        movieContainer.appendChild(dom);
+    });
+}

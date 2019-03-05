@@ -1,4 +1,4 @@
-{
+const movieData = 
     [
         {
             "vote_count": 10870,
@@ -406,5 +406,6 @@
             "overview": "Alex Zane counts down the top 20 Star Wars moments as voted by the public. Includes contributions from famous fans as well as the stars and crew of the intergalactic saga.",
             "release_date": "2015-12-26"
         }
-    ]
-}
+    ];
+
+export default movieData;
