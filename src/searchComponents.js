@@ -1,24 +1,13 @@
+import { writeSearchToQuery } from './query-components.js';
+const inputForm = document.getElementById('movie-input-form');
+const searchTermInput = document.getElementById('movie-search-input');
 
-export function writeSearchToQuery(existingQuery, searchTerm) {
-    const searchParams = new URLSearchParams(existingQuery);
-    searchParams.set('searchTerm', searchTerm);
-    searchParams.set('page', 1);
-    return searchParams.toString();
-}
+inputForm.addEventListener('submit', event => {
+    event.preventDefault();
 
-export function writePageToQuery(existingQuery, page) {
-    const searchParams = new URLSearchParams(existingQuery);
-    searchParams.set('page', page);
-    return searchParams.toString();
-}
-
-export function readFromQuery(query) {
-    const searchParams = new URLSearchParams(query);
-    const searchTerm = searchParams.get('searchTerm');
-    const page = parseInt(searchParams.get('page'));
-    return {
-        searchTerm,
-        page
-    };
-}
+    const existingQuery = window.location.hash.slice(1);
+    const searchTermValue = searchTermInput.value;
+    const newQuery = writeSearchToQuery(existingQuery, searchTermValue);
+    window.location.hash = newQuery;
+});
 

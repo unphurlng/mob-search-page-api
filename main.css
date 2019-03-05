@@ -9,7 +9,6 @@ html {
 h1 {
     text-align: center;
     background: rgba(255, 255, 255, 0.694);
-    
 }
 
 ul {
@@ -47,4 +46,5 @@ form {
 }
 
 #input-label, #page-numbers {
-color: white;}
+    color: white;
+}
