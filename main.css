@@ -1,15 +1,35 @@
+* {
+}
+
+html {
+ background: url('https://previews.123rf.com/images/maximusnd/maximusnd1609/maximusnd160900837/63121378-beautiful-space-background-with-stardust-and-stars-deep-far-space-cosmic-glowing-colors-milky-way-co.jpg') no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.694);
+    
+}
+
 ul {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     text-align: center;
     list-style: none;
-
+    align-content: flex-start;
 }
 
 li {
     border: solid black 2px;
+    background: rgba(255, 255, 255, 0.694);
+    
     padding: 0 20px;
+    margin-top: 10px;
 }
 
 img {
@@ -19,4 +39,16 @@ img {
 .title {
     font-size: 1.5em;
     margin-top: 0px;
+}
+
+form {
+    margin-left: 10vw;
+}
+
+#page-numbers-section {
+    margin: 10px 0 0 10vw;
+}
+
+#input-label, #page-numbers {
+    background: rgba(255, 255, 255, 0.694);
 }

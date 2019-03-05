@@ -12,12 +12,18 @@
     </header>    
     
     <main>
-        <form>
-            <label> Find a Movie:
+        <form id="movie-input-form">
+            <label> 
+                <span id="input-label">Find a Movie:</span>
                 <input type="text" id="movie-search-input" name="movie-search-input">
             </label>
             <button>Search</button>
         </form>
+        <section id="page-numbers-section">
+            <button>&lt;Previous</button>
+            <span id="page-numbers">1 of 100</span>
+            <button>Next&gt;</button>
+        </section>
         <section>
             <ul id="movie-container">
                 <li>
