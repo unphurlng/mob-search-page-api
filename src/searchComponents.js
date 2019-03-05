@@ -11,3 +11,6 @@ inputForm.addEventListener('submit', event => {
     window.location.hash = newQuery;
 });
 
+export function updateSearchTerm(searchTerm) {
+    searchTermInput.value = searchTerm;
+}
