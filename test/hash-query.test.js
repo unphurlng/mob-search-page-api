@@ -1,13 +1,11 @@
+import { writeSearchToQuery } from '../src/searchComponents.js';
+import { writePageToQuery } from '../src/searchComponents.js';
+import { readFromQuery } from '../src/searchComponents.js';
+
 const test = QUnit.test;
 
 QUnit.module('SET URL QUERY');
 
-function writeSearchToQuery(existingQuery, searchTerm) {
-    const searchParams = new URLSearchParams(existingQuery);
-    searchParams.set('searchTerm', searchTerm);
-    searchParams.set('page', 1);
-    return searchParams.toString();
-}
 
 test('Add search to empty query', assert => {
     // arrange
@@ -31,12 +29,6 @@ test('Adds search to existing query', assert => {
     assert.equal(result, expected);
 });
 
-function writePageToQuery(existingQuery, page) {
-    const searchParams = new URLSearchParams(existingQuery);
-    searchParams.set('page', page);
-    return searchParams.toString();
-}
-
 test('Write page to existing query', assert => {
     // arrange
     const expected = 'searchTerm=harry+potter&page=3';
@@ -46,4 +38,17 @@ test('Write page to existing query', assert => {
     const result = writePageToQuery(existingQuery, page);
     // assert
     assert.equal(result, expected);
+});
+
+test('Read from Query', assert => {
+    // arrange
+    const query = 'searchTerm=star+wars&page=3';
+    const expected = {
+        searchTerm: 'star wars',
+        page: 3
+    };
+    // act
+    const result = readFromQuery(query);
+    // assert
+    assert.deepEqual(result, expected);
 });
