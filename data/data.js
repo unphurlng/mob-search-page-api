@@ -11,9 +11,9 @@
             "original_language": "en",
             "original_title": "Star Wars",
             "genre_ids": [
-            12,
-            28,
-            878
+                12,
+                28,
+                878
             ],
             "backdrop_path": "/4iJfYYoQzZcONB9hNzg0J0wWyPH.jpg",
             "adult": false,
@@ -31,9 +31,9 @@
             "original_language": "en",
             "original_title": "Solo: A Star Wars Story",
             "genre_ids": [
-            28,
-            12,
-            878
+                28,
+                12,
+                878
             ],
             "backdrop_path": "/pH0rtDSgBM98Ho8HgiEq8topsxL.jpg",
             "adult": false,
@@ -51,10 +51,10 @@
             "original_language": "en",
             "original_title": "Star Wars: The Last Jedi",
             "genre_ids": [
-            14,
-            12,
-            878,
-            28
+                14,
+                12,
+                878,
+                28
             ],
             "backdrop_path": "/baNQpUlmX8shVmJBGHMSL5Y6MBl.jpg",
             "adult": false,
@@ -72,10 +72,10 @@
             "original_language": "en",
             "original_title": "Star Wars: The Force Awakens",
             "genre_ids": [
-            28,
-            12,
-            878,
-            14
+                28,
+                12,
+                878,
+                14
             ],
             "backdrop_path": "/njv65RTipNSTozFLuF85jL0bcQe.jpg",
             "adult": false,
@@ -93,10 +93,10 @@
             "original_language": "en",
             "original_title": "Star Wars: The Clone Wars",
             "genre_ids": [
-            16,
-            28,
-            878,
-            12
+                16,
+                28,
+                878,
+                12
             ],
             "backdrop_path": "/gmLMaDXi4lFWG8WitaCYOJS5GtL.jpg",
             "adult": false,
@@ -114,11 +114,11 @@
             "original_language": "en",
             "original_title": "Star Wars: Episode IX",
             "genre_ids": [
-            878,
-            14,
-            28,
-            12,
-            10752
+                878,
+                14,
+                28,
+                12,
+                10752
             ],
             "backdrop_path": "/i0NGCiMxL4NIVk2hhjtVgnNYZ3a.jpg",
             "adult": false,
@@ -136,9 +136,9 @@
             "original_language": "en",
             "original_title": "Rogue One: A Star Wars Story",
             "genre_ids": [
-            28,
-            12,
-            878
+                28,
+                12,
+                878
             ],
             "backdrop_path": "/tZjVVIYXACV4IIIhXeIM59ytqwS.jpg",
             "adult": false,
@@ -156,9 +156,9 @@
             "original_language": "en",
             "original_title": "Robot Chicken: Star Wars",
             "genre_ids": [
-            16,
-            35,
-            878
+                16,
+                35,
+                878
             ],
             "backdrop_path": "/gZxY7VDOI48gjhnDJK1E6n9uHWk.jpg",
             "adult": false,
@@ -176,9 +176,9 @@
             "original_language": "en",
             "original_title": "Star Wars: Episode I - The Phantom Menace",
             "genre_ids": [
-            12,
-            28,
-            878
+                12,
+                28,
+                878
             ],
             "backdrop_path": "/v6lRzOActebITc9rizhNAdwQR1O.jpg",
             "adult": false,
@@ -196,9 +196,9 @@
             "original_language": "en",
             "original_title": "Star Wars: Episode III - Revenge of the Sith",
             "genre_ids": [
-            878,
-            12,
-            28
+                878,
+                12,
+                28
             ],
             "backdrop_path": "/wUYTfFbfPiZC6Lcyt1nonr69ZmK.jpg",
             "adult": false,
@@ -216,9 +216,9 @@
             "original_language": "en",
             "original_title": "Star Wars: Episode II - Attack of the Clones",
             "genre_ids": [
-            12,
-            28,
-            878
+                12,
+                28,
+                878
             ],
             "backdrop_path": "/1Slt26IGf2XHqv8xjEJ7LMZqCYb.jpg",
             "adult": false,
@@ -236,11 +236,11 @@
             "original_language": "en",
             "original_title": "The Star Wars Holiday Special",
             "genre_ids": [
-            12,
-            35,
-            10751,
-            878,
-            10770
+                12,
+                35,
+                10751,
+                878,
+                10770
             ],
             "backdrop_path": "/ie6u0zegHcVJEtHSpYn0KgEogrD.jpg",
             "adult": false,
@@ -258,10 +258,10 @@
             "original_language": "en",
             "original_title": "Star Wars Rebels: Spark of Rebellion",
             "genre_ids": [
-            12,
-            16,
-            28,
-            878
+                12,
+                16,
+                28,
+                878
             ],
             "backdrop_path": "/myt3uYcUL6DpQs20pObJrJbBWMu.jpg",
             "adult": false,
@@ -279,9 +279,9 @@
             "original_language": "en",
             "original_title": "The Empire Strikes Back",
             "genre_ids": [
-            12,
-            28,
-            878
+                12,
+                28,
+                878
             ],
             "backdrop_path": "/amYkOxCwHiVTFKendcIW0rSrRlU.jpg",
             "adult": false,
@@ -299,9 +299,9 @@
             "original_language": "en",
             "original_title": "Lego Star Wars: The Padawan Menace",
             "genre_ids": [
-            16,
-            10751,
-            878
+                16,
+                10751,
+                878
             ],
             "backdrop_path": "/hYJ1gD7bHtQsNKV8UVTsX9tD1EJ.jpg",
             "adult": false,
@@ -319,9 +319,9 @@
             "original_language": "en",
             "original_title": "Star Wars: TIE Fighter",
             "genre_ids": [
-            878,
-            28,
-            16
+                878,
+                28,
+                16
             ],
             "backdrop_path": "/eNSyTprwxXrXs5amshnz2R2GKod.jpg",
             "adult": false,
@@ -339,8 +339,8 @@
             "original_language": "en",
             "original_title": "Robot Chicken: Star Wars Episode II",
             "genre_ids": [
-            35,
-            878
+                35,
+                878
             ],
             "backdrop_path": "/qrdLxo18H7x3tr7ewpSz5A3VajH.jpg",
             "adult": false,
@@ -358,10 +358,10 @@
             "original_language": "en",
             "original_title": "Lego Star Wars: Revenge of The Brick",
             "genre_ids": [
-            14,
-            878,
-            16,
-            10751
+                14,
+                878,
+                16,
+                10751
             ],
             "backdrop_path": "/o7uqNjzJVOCtjGvzLx2Yzslr53t.jpg",
             "adult": false,
@@ -379,9 +379,9 @@
             "original_language": "en",
             "original_title": "Return of the Jedi",
             "genre_ids": [
-            12,
-            28,
-            878
+                12,
+                28,
+                878
             ],
             "backdrop_path": "/koE7aMeR2ATivI18mCbscLsI0Nm.jpg",
             "adult": false,
@@ -399,7 +399,7 @@
             "original_language": "en",
             "original_title": "Star Wars: Greatest Moments",
             "genre_ids": [
-            99
+                99
             ],
             "backdrop_path": null,
             "adult": false,
