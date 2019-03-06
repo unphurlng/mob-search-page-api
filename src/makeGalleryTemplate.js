@@ -12,9 +12,17 @@ export function makeGalleryTemplate(movie) {
     return dom;
 }
 
+function clearMovies() {
+    while(movieContainer.children.length > 0) {
+        movieContainer.lastElementChild.remove();
+    }
+}
+
 const movieContainer = document.getElementById('movie-container');
 
 export default function loadGallery(movieList) {
+    clearMovies();
+    
     movieList.forEach(movie => {
         const dom = makeGalleryTemplate(movie);
         movieContainer.appendChild(dom);
