@@ -20,9 +20,14 @@
             <button>Search</button>
         </form>
         <section id="page-numbers-section">
-            <button>&lt;Previous</button>
-            <span id="page-numbers">1 of 100</span>
-            <button>Next&gt;</button>
+            <button id="previous-button">&lt;Previous</button>
+            <div>
+                    Page 
+                <span id="current-page"></span>
+                     of 
+                <span id="total-pages"></span>
+            </div>
+            <button id="next-button">Next&gt;</button>
         </section>
         <section>
             <ul id="movie-container"></ul>
